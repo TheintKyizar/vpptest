@@ -1,0 +1,6 @@
+framework module Pods_vppTest {
+  umbrella header "Pods-vppTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
