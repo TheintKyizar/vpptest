@@ -124,8 +124,9 @@ struct GlobalData{
     static var string = "Not set"
     static var students = [Student]()
     static var regions = [CLBeaconRegion]()
-    static var tempRegions = [CLBeaconRegion]()
+    static var tempRegions = [CLBeaconRegion?]()
     static var flags = Bool()
+    static var regionStatus = [String?](repeating: nil, count:20)
 }
 
 struct Constant{
